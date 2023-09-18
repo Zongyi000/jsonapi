@@ -20,3 +20,12 @@ One awesome thing about having all of your code in Github, is that you can share
 2. Make sure to push any changes made--anything you see online is what we will also see.
 
 
+build: python3 -m build
+
+run test:
+cd /Users/zongyijiang/Desktop/5500/monorepo-zongyi
+python3 -m test.test_jsonapi
+
+or directly run test, but add to terminal: 
+export PYTHONPATH=$PYTHONPATH:/Users/zongyijiang/Desktop/5500/monorepo-zongyi
+

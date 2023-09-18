@@ -1,5 +1,5 @@
 import json
-import jsonapi
+from src.jsonapi import jsonapi
 
 def test_encode_complex_number():
     cx = complex(1,2)
